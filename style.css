@@ -103,7 +103,7 @@ body {
 
 .nav-links ul li a:hover,
 .nav-links ul li a.active {
-    color: #5D866C;
+    color: #FAEAB1;
 }
 
 .nav-links ul li a::after {
@@ -113,7 +113,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #5D866C;
+    background: #FAEAB1;
     transition: var(--transition);
 }
 
@@ -803,4 +803,58 @@ section h3 {
     .features-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* ===============================
+   FIND US SECTION
+=============================== */
+.find-us {
+  padding: 80px 60px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.find-us h2 {
+  font-size: 2rem;
+  color: #2d5a4e;
+  margin-bottom: 20px;
+}
+
+.find-us p {
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+/* Flex row for side-by-side maps */
+.maps-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; /* keeps it responsive on smaller screens */
+}
+
+/* Each map card */
+.map-box {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex: 1 1 45%;
+  min-width: 400px;
+  max-width: 550px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.map-box h3 {
+  background: #2d5a4e;
+  color: white;
+  padding: 15px 0;
+  font-size: 1.2rem;
 }
