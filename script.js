@@ -301,3 +301,19 @@ addScrollToTop();
 const root = document.documentElement;
 root.style.setProperty('--primary-color', '#FFD700');
 root.style.setProperty('--secondary-color', '#ffdf33');
+
+
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+
+  // Wait 5 seconds before fading out loader
+  setTimeout(() => {
+    loader.classList.add("fade-out");
+
+    // Fully remove loader after fade
+    setTimeout(() => {
+      loader.style.display = "none";
+      document.body.style.overflow = "auto"; // re-enable scrolling if needed
+    }, 1000);
+  }, 5000);
+});
