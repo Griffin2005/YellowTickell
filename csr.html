@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corporate Social Responsibility - YellowTickell</title>
+    <style>
+        /* CSR Page Specific Styles */
+        .csr-hero {
+            background: linear-gradient(135deg, #5D866C 0%, #334443 100%);
+            color: white;
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+        
+        .csr-hero h1 {
+            color: #FAEAB1;
+            margin-bottom: 20px;
+        }
+        
+        .csr-section {
+            padding: 60px 0;
+        }
+        
+        .csr-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .csr-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .csr-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        
+        .csr-card h3 {
+            color: #5D866C;
+            margin-bottom: 15px;
+        }
+        
+        .csr-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+            padding: 40px;
+            background: #FAF8F1;
+            border-radius: 8px;
+        }
+        
+        .metric-item {
+            text-align: center;
+        }
+        
+        .metric-item h3 {
+            font-size: 2.5rem;
+            color: #5D866C;
+            margin-bottom: 10px;
+        }
+        
+        .metric-item p {
+            color: #334443;
+            font-weight: 500;
+        }
+        
+        .sustainability-section {
+            background: linear-gradient(to bottom, #FAF8F1, white);
+            padding: 60px 0;
+        }
+        
+        .sustainability-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .sustainability-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .sustainability-item .icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: #5D866C;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .certification-badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .badge {
+            padding: 15px 30px;
+            background: white;
+            border: 2px solid #5D866C;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #5D866C;
+        }
+        
+        .impact-stats {
+            background: #334443;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .impact-stats h2 {
+            color: #FAEAB1;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section class="page-hero">
+        <header>
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="YellowTickell Logo" class="logo-img">
+            </a>
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="csr.html" class="active">CSR</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="page-title">
+            <h1>Corporate Social Responsibility</h1>
+            <p>Building a sustainable future through responsible manufacturing and community development</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- CSR Commitment -->
+        <section class="csr-section container">
+            <h2>Our CSR Commitment</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #5D866C; max-width: 800px; margin: 0 auto 30px;">
+                At YellowTickell, we dedicate <strong>2% of our annual profits</strong> to CSR initiatives, focusing on sustainable manufacturing, environmental conservation, and social development.
+            </p>
+            
+            <div class="csr-metrics">
+                <div class="metric-item">
+                    <h3>2%</h3>
+                    <p>Annual Profits for CSR</p>
+                </div>
+                <div class="metric-item">
+                    <h3>60%</h3>
+                    <p>Water Recycled</p>
+                </div>
+                <div class="metric-item">
+                    <h3>40%</h3>
+                    <p>Solar Energy</p>
+                </div>
+                <div class="metric-item">
+                    <h3>100K+</h3>
+                    <p>Lives Impacted</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clean Manufacturing -->
+        <section class="sustainability-section">
+            <div class="container">
+                <h2>Clean Manufacturing</h2>
+                <p style="text-align: center; margin-bottom: 40px; color: #5D866C;">
+                    Our commitment to sustainable production through eco-friendly processes
+                </p>
+                
+                <div class="sustainability-grid">
+                    <div class="sustainability-item">
+                        <div class="icon">💧</div>
+                        <h3>Zero Liquid Discharge</h3>
+                        <p>100% water recycling through advanced treatment systems</p>
+                    </div>
+                    <div class="sustainability-item">
+                        <div class="icon">☀️</div>
+                        <h3>Solar Power</h3>
+                        <p>40% of energy needs met through renewable sources</p>
+                    </div>
+                    <div class="sustainability-item">
+                        <div class="icon">🌿</div>
+                        <h3>Eco Materials</h3>
+                        <p>Using sustainable and organic raw materials</p>
+                    </div>
+                    <div class="sustainability-item">
+                        <div class="icon">♻️</div>
+                        <h3>Waste Reduction</h3>
+                        <p>80% reduction in production waste</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Water & Energy Conservation -->
+        <section class="csr-section container">
+            <h2>Water & Energy Conservation</h2>
+            
+            <div class="csr-grid">
+                <div class="csr-card">
+                    <h3>💧 Water Management</h3>
+                    <ul style="line-height: 1.8; color: #5D866C;">
+                        <li><strong>Rainwater Harvesting:</strong> 5 million liters capacity</li>
+                        <li><strong>ETP & STP Plants:</strong> Advanced treatment facilities</li>
+                        <li><strong>Water Recycling:</strong> 60% water reused in production</li>
+                        <li><strong>Drip Irrigation:</strong> For landscape maintenance</li>
+                    </ul>
+                    <p style="margin-top: 20px; padding: 15px; background: #FAF8F1; border-radius: 8px;">
+                        <strong style="color: #5D866C; font-size: 1.5rem;">30%</strong><br>
+                        Reduction in water consumption (YoY)
+                    </p>
+                </div>
+                
+                <div class="csr-card">
+                    <h3>⚡ Energy Efficiency</h3>
+                    <ul style="line-height: 1.8; color: #5D866C;">
+                        <li><strong>Solar Panels:</strong> 5MW rooftop installation</li>
+                        <li><strong>LED Lighting:</strong> 100% LED across facilities</li>
+                        <li><strong>Energy Monitoring:</strong> IoT-based real-time tracking</li>
+                        <li><strong>Heat Recovery:</strong> Waste heat utilization systems</li>
+                    </ul>
+                    <p style="margin-top: 20px; padding: 15px; background: #FAF8F1; border-radius: 8px;">
+                        <strong style="color: #5D866C; font-size: 1.5rem;">25%</strong><br>
+                        Reduction in carbon footprint
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Impact -->
+        <section class="csr-section container">
+            <h2>Social Impact</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: #5D866C;">
+                Contributing to community development through healthcare and education initiatives
+            </p>
+            
+            <div class="csr-grid">
+                <div class="csr-card">
+                    <h3>🏥 Healthcare Excellence</h3>
+                    <p>Providing quality healthcare facilities to underserved communities</p>
+                    <p style="color: #5D866C; font-weight: 600; margin: 15px 0;">100K+ patients treated annually</p>
+                    <ul style="line-height: 1.8;">
+                        <li>Free Medical Camps</li>
+                        <li>Mobile Health Units</li>
+                        <li>Hospital Infrastructure</li>
+                        <li>Preventive Care Programs</li>
+                    </ul>
+                </div>
+                
+                <div class="csr-card">
+                    <h3>📚 Education for All</h3>
+                    <p>Promoting education through schools and scholarships</p>
+                    <p style="color: #5D866C; font-weight: 600; margin: 15px 0;">50K+ students supported</p>
+                    <ul style="line-height: 1.8;">
+                        <li>School Infrastructure</li>
+                        <li>Digital Literacy Programs</li>
+                        <li>Teacher Training</li>
+                        <li>Merit Scholarships</li>
+                    </ul>
+                </div>
+                
+                <div class="csr-card">
+                    <h3>👩 Women Empowerment</h3>
+                    <p>Supporting female workforce and community development</p>
+                    <p style="color: #5D866C; font-weight: 600; margin: 15px 0;">70% female workforce</p>
+                    <ul style="line-height: 1.8;">
+                        <li>Skill Development</li>
+                        <li>Self-Help Groups</li>
+                        <li>Health Programs</li>
+                        <li>Leadership Training</li>
+                    </ul>
+                </div>
+                
+                <div class="csr-card">
+                    <h3>🏘️ Rural Development</h3>
+                    <p>Building sustainable infrastructure and livelihoods</p>
+                    <p style="color: #5D866C; font-weight: 600; margin: 15px 0;">200+ villages impacted</p>
+                    <ul style="line-height: 1.8;">
+                        <li>Water Conservation</li>
+                        <li>Sanitation Facilities</li>
+                        <li>Agricultural Support</li>
+                        <li>Community Centers</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compliance & Certifications -->
+        <section class="csr-section container">
+            <h2>Compliance & Certifications</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: #5D866C;">
+                Meeting global standards for ethical and sustainable business practices
+            </p>
+            
+            <div class="certification-badges">
+                <div class="badge">ISO 14001</div>
+                <div class="badge">SA8000</div>
+                <div class="badge">SMETA 4-Pillar</div>
+                <div class="badge">OEKO-TEX</div>
+                <div class="badge">BSCI</div>
+                <div class="badge">GOTS</div>
+            </div>
+        </section>
+
+        <!-- Employee Welfare -->
+        <section class="csr-section container">
+            <h2>Employee Welfare & Development</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: #5D866C;">
+                Our employees are our greatest asset. We invest in their growth, well-being, and future.
+            </p>
+            
+            <div class="csr-grid">
+                <div class="csr-card">
+                    <h3>Health & Safety</h3>
+                    <p>Comprehensive health insurance and regular health check-ups for all employees</p>
+                </div>
+                <div class="csr-card">
+                    <h3>Skill Development</h3>
+                    <p>Regular training programs and career advancement opportunities</p>
+                </div>
+                <div class="csr-card">
+                    <h3>Work-Life Balance</h3>
+                    <p>Flexible working hours and employee wellness programs</p>
+                </div>
+                <div class="csr-card">
+                    <h3>Gender Equality</h3>
+                    <p>70% female workforce with equal opportunities for growth</p>
+                </div>
+            </div>
+            
+            <div class="csr-metrics" style="margin-top: 40px;">
+                <div class="metric-item">
+                    <h3>10,000+</h3>
+                    <p>Employees</p>
+                </div>
+                <div class="metric-item">
+                    <h3>70%</h3>
+                    <p>Women Workforce</p>
+                </div>
+                <div class="metric-item">
+                    <h3>95%</h3>
+                    <p>Retention Rate</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Stats -->
+        <section class="impact-stats">
+            <div class="container">
+                <h2>Our Impact</h2>
+                <div class="csr-metrics" style="background: transparent; color: white;">
+                    <div class="metric-item">
+                        <h3 style="color: #FAEAB1;">5M+</h3>
+                        <p style="color: white;">Lives Touched</p>
+                    </div>
+                    <div class="metric-item">
+                        <h3 style="color: #FAEAB1;">500+</h3>
+                        <p style="color: white;">Villages Reached</p>
+                    </div>
+                    <div class="metric-item">
+                        <h3 style="color: #FAEAB1;">₹500Cr+</h3>
+                        <p style="color: white;">CSR Investment</p>
+                    </div>
+                    <div class="metric-item">
+                        <h3 style="color: #FAEAB1;">Carbon Neutral</h3>
+                        <p style="color: white;">By 2030</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="contact-cta">
+            <div class="container">
+                <h2>Join Our Mission</h2>
+                <p>Partner with us in creating sustainable change and building inclusive communities</p>
+                <a href="contact.html" class="btn-primary">Partner With Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner container">
+            <div>
+                <h4>YellowTickell</h4>
+                <p>Premium textiles crafted with innovation and care.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <p><a href="about.html">About</a> • <a href="products.html">Products</a> • <a href="csr.html">CSR</a> • <a href="contact.html">Contact</a></p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>contact@yellowtickell.com<br>+91 9967004072</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
