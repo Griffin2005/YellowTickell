@@ -28,7 +28,6 @@ YellowTickell/
 │
 └── docs/                       # Documentation
     ├── README.md              # This file
-    └── LOGO_FIX_GUIDE.md      # Logo troubleshooting guide
 ```
 
 ## 🌟 Features
